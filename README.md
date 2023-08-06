@@ -1,4 +1,3 @@
-![Docker Automated build](https://img.shields.io/docker/automated/:AksultanAitkozha/:yurt-ai)
 ![GitHub](https://img.shields.io/github/license/AksultanAitkozha/yurt-ai)
 
 
