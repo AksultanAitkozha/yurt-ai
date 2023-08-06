@@ -46,8 +46,8 @@ const About = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 relative" style={{ minHeight: '300px' }}>
-        <Image src={"/header_1.png"} alt="Before" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 ${100 - sliderValue}% 0 0)` }} width={300} height={300} />
-        <Image src={"/yurt_ai.png"} alt="After" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 0 0 ${sliderValue}%)` } } width={300} height={300}/>
+        <Image src={"/sketch_1.jpg"} alt="Before" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 ${100 - sliderValue}% 0 0)` }} width={600} height={600} />
+        <Image src={"/winter.png"} alt="After" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 0 0 ${sliderValue}%)` } } width={600} height={600}/>
         <input 
             type="range" 
             min="0" 
