@@ -1,4 +1,4 @@
-![Docker Automated build](https://img.shields.io/docker/automated/AksultanAitkozha/yurt-ai)
+![Docker Automated build](https://img.shields.io/docker/automated/:AksultanAitkozha/:yurt-ai)
 
 Exterior Architecture Design Studio
 
