@@ -1,3 +1,5 @@
+![Docker Automated build](https://img.shields.io/docker/automated/:user/:repo)
+
 Exterior Architecture Design Studio
 
 An AI-powered app that automates the process of remodeling and re-visualizing scenes. Simply upload your sketches or photos, and watch as the app transforms them into stunning designs based on various styles and preferences.
