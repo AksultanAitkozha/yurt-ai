@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import UploadImage from "./UploadImage";
 import SelectionComponent from "./SelectionComponent";
 
-const SideToolBar = ( { setImageUrl } ) => {
+const SideToolBar = ( { setImageUrl }) => {
   return (
     <div className="lg:w-3//4 p-7 space-y-3 bg-white">
     <h1 className="font-bold text-2xl underline">Exterior Architecture Design Studio</h1>
