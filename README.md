@@ -1,5 +1,6 @@
 ![Docker Automated build](https://img.shields.io/docker/automated/:AksultanAitkozha/:yurt-ai)
-https://img.shields.io/github/license/AksultanAitkozha/yurt-ai
+![GitHub](https://img.shields.io/github/license/AksultanAitkozha/yurt-ai)
+
 
 
 Exterior Architecture Design Studio
