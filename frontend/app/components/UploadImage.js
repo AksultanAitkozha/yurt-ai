@@ -49,7 +49,7 @@ const UploadImage = ({ setImageUrl }) => {
 			formData.append("file", selectedImage);
 
 			axios.post(
-				"https://yourt-ai.onrender.com/uploadfile",
+				"https://yurtai-studio.onrender.com/characters/uploadfile",
 				formData
 			)
 				.then(function (response) {
