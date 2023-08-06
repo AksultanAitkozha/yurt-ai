@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const About = () => {
   const [sliderValue, setSliderValue] = useState(50);
@@ -45,8 +46,8 @@ const About = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 relative" style={{ minHeight: '300px' }}>
-        <img src="header_1.png" alt="Before" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 ${100 - sliderValue}% 0 0)` }} />
-        <img src="yurt_ai.png" alt="After" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 0 0 ${sliderValue}%)` }} />
+        <Image src={"/header_1.png"} alt="Before" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 ${100 - sliderValue}% 0 0)` }} width={300} height={300} />
+        <Image src={"/yurt_ai.png"} alt="After" className="absolute w-full h-full top-0 left-0 object-cover" style={{ clipPath: `inset(0 0 0 ${sliderValue}%)` } } width={300} height={300}/>
         <input 
             type="range" 
             min="0" 

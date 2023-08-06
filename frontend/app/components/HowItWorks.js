@@ -15,7 +15,7 @@ const HowItWorks = () => {
             <span className="inline-block h-8 w-8 rounded-full bg-white mr-4 items-center justify-center text-black font-bold">2</span>
             <div>
               <h3 className="text-xl font-semibold mb-2 font-inter">Make Selections</h3>
-              <p className="text-gray-600 font-inter">Choose the building type, style, material, and season. Customize as per your client's requirements or preferences.</p>
+              <p className="text-gray-600 font-inter">Choose the building type, style, material, and season. Customize as per your client&apos;s requirements or preferences.</p>
             </div>
           </div>
   
