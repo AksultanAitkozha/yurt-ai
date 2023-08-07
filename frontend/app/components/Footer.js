@@ -6,7 +6,7 @@ const Footer = () => (
                 <p style={{ fontFamily: 'Inter' }}>Made with ❤️ in Kazakhstan</p>
             </div>
             <a
-                href="https://www.linkedin.com/your-link"
+                href="https://www.linkedin.com/in/aksultan-aitkozhin-0a4123201/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline mt-4 md:mt-0"
