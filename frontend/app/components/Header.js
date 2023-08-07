@@ -8,13 +8,10 @@ function Header() {
       }}>
       <Link href="./Home" className="text-2xl font-semibold font-inter">Yurt.ai</Link>
       <nav className="space-x-4">
-      <Link href="./pages/Exterior" className="font-inter text-lg">
-            House
-        </Link>
-        <Link href="/" className="font-inter text-lg">
+        <Link href="./pages/Exterior" className="font-inter text-lg">
             Room
         </Link>
-        <Link href="/" className="font-inter text-lg">
+        <Link href="./pages/Exterior" className="font-inter text-lg">
             Floorplan
         </Link>
         <Link href="/login" className="font-inter text-lg">
