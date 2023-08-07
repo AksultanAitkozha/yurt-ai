@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 
-import Header from '../components/Header';  // Assuming you have a Header component in a `components` folder.
-import About from '../components/About';    // Same for the About component.
-import Footer from '../components/Footer';  // And the Footer component.
-import HowItWorks from '../components/HowItWorks';
+import Header from '../../components/Header';  // Assuming you have a Header component in a `components` folder.
+import About from '../../components/About';    // Same for the About component.
+import Footer from '../../components/Footer';  // And the Footer component.
+import HowItWorks from '../../components/HowItWorks';
 
 export default function Home() {
   return (

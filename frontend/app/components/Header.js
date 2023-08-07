@@ -6,10 +6,16 @@ function Header() {
         backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 7px, #ddd1 7px, #ddd1 8px),
                          repeating-linear-gradient(90deg, transparent, transparent 7px, #ddd1 7px, #ddd1 8px)` 
       }}>
-      <div className="text-2xl font-semibold font-inter">Yurt.ai</div>
+      <Link href="./Home" className="text-2xl font-semibold font-inter">Yurt.ai</Link>
       <nav className="space-x-4">
-      <Link href="/" className="font-inter text-lg">
-            About Us
+      <Link href="./pages/Exterior" className="font-inter text-lg">
+            House
+        </Link>
+        <Link href="/" className="font-inter text-lg">
+            Room
+        </Link>
+        <Link href="/" className="font-inter text-lg">
+            Floorplan
         </Link>
         <Link href="/login" className="font-inter text-lg">
             Log In

@@ -1,2 +1,2 @@
 // pages/index.js
-export { default } from '../app/pages/Home';
+export { default } from './pages/Home/page';
